@@ -4,9 +4,9 @@ import Image from 'next/image'
 
 const DiscussionCard = ({name,sector,Description,time,comments,likes,views}) => {
   return (
-    <div className='flex flex-col gap-5 bg-white text-black border border-gray-200 shadow-md p-5 rounded-md'>
+    <div className='flex flex-col gap-5 bg-white text-black border border-gray-200 cursor-pointer shadow-lg p-5 rounded-lg'>
         <div className='flex flex-row justify-between'>
-            <div className="flex flex-row gap-3">
+            <div className="flex flex-row md:gap-3 vsm:gap-1">
                 <div className='relative w-8 h-8 rounded-full bg-yellow-200'>
                     <Image src="/userimage.jpg" layout='fill' alt="user" />
                 </div>

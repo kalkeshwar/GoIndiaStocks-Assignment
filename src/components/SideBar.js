@@ -7,9 +7,9 @@ const SideBar = () => {
       <div className="relative flex flex-row gap-20 justify-between items-center px-10 py-8">
         <div className="flex flex-row gap-5  justify-center items-center">
           <UserIcon className="w-10 h-10 " />
-          <div className="text-xl font-semibold"> Hello, User</div>
+          <div className="text-xl font-semibold">Hello, User</div>
         </div>
-        <div className="">
+        <div className="flex">
           <NotificationIcon className="w-10 h-10" />
         </div>
         <div className="w-[98%] h-1 absolute bottom-0 right-1 bg-gray-500"></div>
