@@ -27,7 +27,7 @@ export default function Home() {
   }
 
   return (
-    <div className="w-[100vw] vsm:relative lg:static h-screen flex flex-row gap-5 lg:pr-5 vsm:p-2 justify-between">
+    <div className="w-[100vw] vsm:relative bg-white lg:static h-screen flex flex-row gap-5 lg:pr-5 vsm:p-2 justify-between">
       <div className={`lg:w-[30%] vsm:w-[89%] vsm:absolute lg:static vsm:top-0 vsm:left-0 vsm:z-20 h-[100vh] ${open?"flex":"hidden"} `}>
         <SideBar/>
       </div>
